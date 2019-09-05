@@ -1,4 +1,4 @@
-package com.lambdaschool.solution;
+package com.lambdaschool.solution.impl;
 
 public interface Athlete {
 

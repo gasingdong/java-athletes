@@ -1,5 +1,11 @@
 package com.lambdaschool.solution;
 
+import com.lambdaschool.solution.injectors.AthleteCreationInjector;
+import com.lambdaschool.solution.injectors.BaseballAthleteCreationInjector;
+import com.lambdaschool.solution.injectors.HockeyAthleteCreationInjector;
+import com.lambdaschool.solution.injectors.RugbyAthleteCreationInjector;
+import com.lambdaschool.solution.injectors.TrackAthleteCreationInjector;
+
 public class Main
 {
     public static void main(String[] args)

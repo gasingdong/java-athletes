@@ -1,6 +1,8 @@
 package com.lambdaschool.solution;
 
-public class MyApplication {
+import com.lambdaschool.solution.impl.Athlete;
+
+public class MyApplication implements Processor {
 
   private Athlete athlete;
 
@@ -8,7 +10,8 @@ public class MyApplication {
     this.athlete = athlete;
   }
 
-  public void create() {
+  @Override
+  public void displayAthlete() {
     System.out.println("************");
     athlete.display();
     System.out.println("************\n");
